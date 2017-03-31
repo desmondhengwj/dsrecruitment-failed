@@ -3,7 +3,6 @@
 ## Heroku Link
 https://dsrecruitment.herokuapp.com/
 
-
 ## Enabling Authy
 https://dsrecruitment.herokuapp.com/users/enable_authy
 
