@@ -28,3 +28,11 @@ $ cd dsrecruitment
 $ bundle install
 $ bundle exec rails server
 ```
+
+## Things I need to do
+* It's extremely buggy still
+* Add a request model
+
+## Extra features
+* Do a Appointment Reminder module with Twilio
+* Do an admin page whereby I can send SMS to everybody in my database
