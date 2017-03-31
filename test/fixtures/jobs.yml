@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  location: MyString
+  date: 2017-03-31
+  start_time: 2017-03-31 10:13:12
+  end_time: 2017-03-31 10:13:12
+  no_of_slots: 1
+  rate_per_hour: 1
+  completed: false
+
+two:
+  location: MyString
+  date: 2017-03-31
+  start_time: 2017-03-31 10:13:12
+  end_time: 2017-03-31 10:13:12
+  no_of_slots: 1
+  rate_per_hour: 1
+  completed: false
