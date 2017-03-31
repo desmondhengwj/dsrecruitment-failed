@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170331021312) do
+ActiveRecord::Schema.define(version: 20170331033632) do
 
   create_table "jobs", force: :cascade do |t|
     t.string   "location"
@@ -41,6 +41,18 @@ ActiveRecord::Schema.define(version: 20170331021312) do
     t.string   "authy_id"
     t.datetime "last_sign_in_with_authy"
     t.boolean  "authy_enabled",           default: false
+    t.string   "name"
+    t.string   "nric"
+    t.integer  "contact_number"
+    t.string   "gender"
+    t.date     "date_of_birth"
+    t.string   "address"
+    t.string   "student_status"
+    t.string   "student_school"
+    t.string   "bank_name"
+    t.integer  "bank_account_number"
+    t.string   "colored_hair_status"
+    t.string   "tattoo_status"
   end
 
   add_index "users", ["authy_id"], name: "index_users_on_authy_id"
