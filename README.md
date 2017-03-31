@@ -1,8 +1,14 @@
 # DS Recruitment
 
 ## Heroku Link
+https://dsrecruitment.herokuapp.com/
 
 
+## Enabling Authy
+https://dsrecruitment.herokuapp.com/users/enable_authy
+
+## Twilio console
+https://www.twilio.com/console
 
 ## Running the app
 
