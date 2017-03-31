@@ -1,4 +1,6 @@
 <p id="notice"><%= notice %></p>
+<div class="container">
+
 
 <p>
   <strong>Location:</strong>
@@ -34,6 +36,8 @@
   <strong>Completed:</strong>
   <%= @job.completed %>
 </p>
+
+</div>
 
 <%= link_to 'Edit', edit_job_path(@job) %> |
 <%= link_to 'Back', jobs_path %>
